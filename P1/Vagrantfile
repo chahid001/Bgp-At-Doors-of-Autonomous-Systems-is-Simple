@@ -1,6 +1,6 @@
 Vagrant.configure("2") do |config|
   
-  config.vm.define("server") do |sv|
+  config.vm.define("GNS3-server") do |sv|
   
     sv.vm.box = "ubuntu/focal64"
     sv.vm.hostname = "schahid"
